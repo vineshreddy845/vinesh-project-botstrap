@@ -7,6 +7,27 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+     <nav class="navbar navbar-expand-sm bg-dark navbar-success">
+       <a class="nav-link  active"href="#">file</a>
+       <ul class="navbar-nav">
+         <li class="nav-im">
+         <a class="nav-link active"href="#">edit</a>
+         </li>
+         <li class="nav-dropdown">
+           <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#">selection</a>
+           <div class="dropdown-menu">
+             <a class="nav-link" href="#">selectall</a>
+             <a class="nav-link" href="#">expandselection</a>
+           </div>
+         </li>
+       </ul>
+       <div class="rohit nav justify-content-end">
+       <form action="newproject.html" class="form-inline" method="post">
+         <input type="text"class="form-control" placeholder="search" name="num2">
+         <button type="button" class="btn btn-success">search</button>
+       </form>
+       </div>
+     </nav>   
  <style>
   .vinesh{
       text-align:center;
@@ -16,6 +37,14 @@
   body{
     background-image:url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
        }
+  .rohit{
+    margin-left: 800px;
+  }
+  .nav-dropdown{
+    margin-left:20px;
+  }
+  .nav-im{
+    margin-left:20px;
   }
  </style>
 
